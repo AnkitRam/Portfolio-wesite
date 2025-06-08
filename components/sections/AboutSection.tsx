@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import ankitImage from '../../../public/Ankit11.png';
+import ankitImage from '../../public/Ankit11.png';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { Code, Database, Brain, TrendingUp } from 'lucide-react';
