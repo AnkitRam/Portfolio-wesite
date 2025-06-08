@@ -42,7 +42,7 @@ const AboutSection = () => {
               <div className="w-80 h-80 mx-auto md:mx-0 relative">
                 <div className="absolute inset-0 rounded-full border-4 border-[#64ffda] animate-pulse"></div>
                 <div className="w-full h-full rounded-full bg-gradient-to-br from-[#64ffda]/20 to-[#0a192f] flex items-center justify-center overflow-hidden">
-                  <Image
+                  <img
                     src="/Portfolio-wesite/Ankit11.png"
                     alt="Ankit Ram - Data Analyst"
                     width={288}
