@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import ankitImage from '../../../public/Ankit11.png';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { Code, Database, Brain, TrendingUp } from 'lucide-react';
@@ -42,7 +43,7 @@ const AboutSection = () => {
                 <div className="absolute inset-0 rounded-full border-4 border-[#64ffda] animate-pulse"></div>
                 <div className="w-full h-full rounded-full bg-gradient-to-br from-[#64ffda]/20 to-[#0a192f] flex items-center justify-center overflow-hidden">
                   <img
-                    src="/Ankit11.png"
+                    src={ankitImage.src}
                     alt="Ankit Ram - Data Analyst"
                     className="w-72 h-72 rounded-full object-cover border-4 border-[#64ffda]/50"
                   />
