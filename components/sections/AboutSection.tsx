@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { Code, Database, Brain, TrendingUp } from 'lucide-react';
@@ -41,10 +42,12 @@ const AboutSection = () => {
               <div className="w-80 h-80 mx-auto md:mx-0 relative">
                 <div className="absolute inset-0 rounded-full border-4 border-[#64ffda] animate-pulse"></div>
                 <div className="w-full h-full rounded-full bg-gradient-to-br from-[#64ffda]/20 to-[#0a192f] flex items-center justify-center overflow-hidden">
-                  <img
+                  <Image
                     src="/Ankit11.png"
                     alt="Ankit Ram - Data Analyst"
-                    className="w-72 h-72 rounded-full object-cover border-4 border-[#64ffda]/50"
+                    width={288}
+                    height={288}
+                    className="rounded-full object-cover border-4 border-[#64ffda]/50"
                   />
                 </div>
               </div>
